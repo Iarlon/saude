@@ -7,7 +7,7 @@ import model.Usuario;
 import java.util.ArrayList;
 import java.util.List;
 
-public class UsuarioService {
+public final class UsuarioService {
     private static int idAtual = 0;
     private List<Usuario> usuarios = new ArrayList<>();
 

@@ -3,7 +3,7 @@ package model;
 import enums.TipoDeServico;
 import java.util.List;
 
-public class Servicos {
+public final class Servicos {
     private TipoDeServico tipoDeServico;
     private double valor;
     private List<String> horariosDisponiveis;

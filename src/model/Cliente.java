@@ -7,7 +7,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Cliente extends Pessoa implements Usuario {
+public final class Cliente extends Pessoa implements Usuario {
 
   public Cliente(int id, String nome, String email, String contato, String senha) {
     super(id, nome, email, contato, senha);

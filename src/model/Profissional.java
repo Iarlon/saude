@@ -3,7 +3,7 @@ package model;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Profissional extends Pessoa implements Usuario {
+public final class Profissional extends Pessoa implements Usuario {
   private List<Servicos> servicos;
 
   public Profissional(int id, String nome, String email, String contato, String senha) {

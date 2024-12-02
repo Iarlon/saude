@@ -3,7 +3,7 @@ package model;
 
 import enums.MetodoPagamento;
 
-public class Pagamento {
+public final class Pagamento {
   private double valor;
   private MetodoPagamento metodoPagamento;
   
